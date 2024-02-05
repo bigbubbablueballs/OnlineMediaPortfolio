@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon"><img src="img/home.png"></a>
+      <nav>
+        <a class="navE" href="MePage.html">About me</a>
+        <a class="navE" href="Timetable.html">Timetable</a>
+        <a class="navE" href="Calculator.html">Calculator</a>
+        <a class="navE" href="TikTok.html"><img id="TTicon" src="img/tiktok.png"></a>
+        <a class="navE" href="my-class.html">My Class</a>
+        <a class="navE" href="my-class.html"></a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2>Analysis of social media platforms: <br> TikTok</h2>
+        <p>One of our objectives this semester was to analyse various social media platforms. 
+          <br> It was my groups Objective to analyse TikTok. This Analysis included the websites UI and UX and its functionalities. </p>
+      </aside>
+
+      <section class="tiktoksection">
+        <h1>TikTok</h1>
+        <img class="pps" src="img/Slide3.JPG">
+        <h3 class="altH3">User interface Home Page:</h3>
+        <p class="tiktoktext">On TikTok the video is put in focus by placing it in the middle of the Page, everything else is pushed to the edges. All interaction Buttons (follow, like, comment, share, sound) are lined up on the right side of the video, making it very easy to to interact with. 
+          <br> Advantages:TikTok's algorithm can understand what content keeps the user engaged and it's easy to find other people on a trend and and join the trend
+          Navigation buttons (Home, Friends, Inbox, Profile) are on the left side for quick navigation through the apps different pages without taking up too much space.</p>
+        <img class="pps" src="img/Slide4.JPG">
+        <h3 class="altH3">GET: </h3>
+        <p>This method is used to retrieve data. In this scenario, TikTok needs to fetch information when trying to access user profiles, their videos and comments. One of the main features is the so called ‘’For You Page’’, where the GET method is used to fetch trending content and all of the content that belongs to it, to put it in an infinite list of videos playing one after another. Of  course, for each video, new data needs to be fetched.</p>
+        <img class="pps" src="img/Slide5.JPG">
+        <h3 class="altH3">POST:</h3>
+        <p>This method is used to create new data, so data that has not been existing in the system yet and can not be fetched. This includes uploading and posting new videos, comments or interactions with other people (sharing, liking, following). </p>
+        <img class="pps" src="img/Slide6.JPG">
+        <h3 class="altH3">PUT: </h3>
+        <p>Put is a similar method than post, or at least some of the features can be switched up for the two. The PUT is typically used when a user is updating already existing data. In this sense, it means updating your user profile, editing your own video captions or comments or just simply modify your app settings in general.</p>
+        <img class="pps" src="img/Slide7.JPG">
+        <h3 class="altH3">DELETE:</h3>
+        <p>This method is very obviously, like the name suggests, for removing data. This is very simply just deleting comments, videos, captions or other data that you can also edit or create on the app. Interestingly enough, unfollowing users also counts towards the DELETE function.</p>
+        <img class="pps" src="img/Slide8.JPG">
+        <h3 class="altH3">Conclusion:</h3>
+        <p>TikTok, like most other Social Media applications, is heavily based on following the users requests. This means the user gives an input on what they want the app to do and the app will handle the data accordingly. Main inputs given are interacting with other people’s content or fetching other people’s profiles. Regarding endpoints, with the user’s input, the application is mainly based on user profile interactions (likes, comments, shares..) and  video interactions (retrieving, uploading, finding, managing videos).</p>
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>

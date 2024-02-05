@@ -1,0 +1,55 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.edit-btn,
+.remove-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.remove-btn {
+  background-color: #f44336;
+}
+
+.add-update-section {
+  padding: 0px 0px 20px;
+}
+
+.add-update-form {
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.add-update-form label {
+  display: block;
+}
+
+.add-update-form input {
+  padding: 5px;
+}
+
+.add-update-form button {
+  padding: 7px;
+}
+
+td:hover {
+  background-color: #f5f5f5; 
+}

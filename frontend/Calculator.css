@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+body div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#result {
+  color: #000000;
+}
